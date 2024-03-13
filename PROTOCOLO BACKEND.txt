@@ -1,0 +1,156 @@
+Estructuracion LOGICA DEL NEGOCIO (BACKEND) De AlquileGente.com 
+
+
+paso 1 CRUD DE LAS RESEÑAS  --- SE DEBE GENERAR UNA CONECCION ENTRE LA TABLA QUE SE CREE PARA LAS RESPECTIVAS RESEÑAS... DEBE HABER UN METODO POST QUE SE EJECUTE CUANDO EL USUARIO DE CLICK EN EL BOTON AÑADIR Y ENVIE LA RESEÑA DE ESTE A UNA TABLA GENERADA EN LA BASE DE DATOS CENTRALIZADA DE LA APLICACION Y ESTO INSTANTANEAMENTE DEBE GENERAR UNA SOLICITUD GET AL SERVIDOR PARA CAMBIAR UN ESTADO EN LA APLICACION QUE PERMITA QUE INSTANTANEAMENTE SE REENDERIZE LA RESEÑA GUARDADA EN LA BASE DE DATOS EN LA APLICACION
+
+
+paso 2 CREAR BASE DE DATOS DE USUARIOS Y LOGIN DE SESION CON SUS RESPECTIVAS MEDIDAS DE SEGURIDAD TALES COMO ENCRIPTAMIENTO, COKIES (OPCIONAL) Y UN CORRECTO DESENCRIPTAMIENTO PARA GENERAR LA COMPROBACION DE SI EL USUARIO QUE INTENTA ACCEDER A LA BASE DE DATOS ES EL MISMO QUE ESTA GENERANDO LA SOLICITUD EN EL INICIO DE SESION PARA ESTO SE DEBEN GUARDAR TODOS LOS USUARIOS DESENCRIPTADA EN UN ESTADO AL CUAL SE LE EJECUTARA UN METODO FIND PARA CONSEGUIR ESTO
+ 
+
+paso 3 FUNCIONALIDAD PRINCIPAL DE LA APLICACION ----- SERVICIO CENTRAL DE LA APLICACION
+
+ESTE SERIA EL CRUD DE SERVICIOS EL CUAL ES UN CRUD EXACTAMENTE IGUAL AL DE LAS RESEÑAS CON LA DIFERENCIA QUE ESTE SOLO ESTARA ACTIVO UNA VEZ QUE UN USUARIO ESTE SUBSCRITO AL SERVICIO
+
+
+paso 4 GENERAR LOS TRAMITES DE PAGO Y METODOS DE PAGO
+
+AÑADIR UNA PLATAFORMA DE SUBSCRIPCION COMO PAYPAL PARA GENERAR LOS CORRESPONDIENTES PAGOS A LAS CUENTAS BANCARIAS CORRESPONDIENTES (60% PARA LA SEÑORA MARIA GIANNETI Y 40% PARA EL SEÑOR CRISTIAN MEDINA) QUE PIDA UN PAGO A UN USUARIO SI DESEA CREAR UNA CUENTA PARA UTILIZAR EL SERVICIO DE ARRENDAMIENTO DE PERSONAS
+
+
+
+COSAS A TENER EN CUENTA
+
+
+---- SE DEBEN AÑADIR TODOS LOS PROTOCOLOS DE SEGURIDAD INDICADOS A LA PLATAFORMA DE PAGO PARA CREAR UN SERVICIO SEGURO TANTO PARA LOS PRESTADORES COMO PARA LOS USUARIOS
+
+----EL STACK UTILIZADO PARA GENERAR ESTE PROYECTO ES EL STACK MERN (REACT JS, EXPRESS Y MYSQL)
+
+----SE DEBEN AÑADIR PROTOCOLOS DE SEGURIDAD INDICADOS PARA LA BASE DE DATOS DE USUARIOS, COMO AL RESPECTIVA ENCRIPTACION DE SUS CONTRASEÑAS PARA GARANTIZAR LA SEGURIDAD DEL SERVICIO EN LOS USUARIOS
+
+
+
+NOMBRE DE LA BASE DE DATOS
+
+
+
+la misma mierde que uno le da por traducir
+Anna te respondió
+Anna Maria Giannetti
+vedi tu
+Respondiste a Anna
+what is it?
+Enviaste
+Sì, lavoriamo meglio dal lunedì al venerdì
+Enviaste
+pensi che sia OK?
+Enviaste
+piuttosto ci riposiamo sabato e domenica
+Enviaste
+ya la otra semana tendremos el backend ttermindo
+Enviaste
+va a quedar fullll
+Sáb, 12:08
+Enviaste
+oie y ya has ido pensndo que ponerle a los textos+
+14:52
+Enviaste
+Señora, esta todo bien?
+Anna
+Anna Maria Giannetti
+Enviaste
+cuenteme señora
+Enviaste
+que le cambio?
+Anna
+Anna Maria Giannetti
+Enviaste
+claro que si puedes
+Enviaste
+tienes que descargarlo mediante el gitbash
+Enviaste
+lo cambias  y despues haces un git push7
+Anna
+Anna Maria Giannetti
+Enviaste
+https://github.com/cristiansanchez2715/AlquiloGente
+
+GitHub - cristiansanchez2715/AlquiloGente: Frontend del Proyecto
+Enviaste
+utliziando gitbash tienes que traer ese repositorio a tu maqui
+Enviaste
+cambias el codigo y desps tienes que borrar el build presente
+Enviaste
+volver a compilarlo y suubirlo
+Enviaste
+necesitas aprender git
+Anna
+Anna Maria Giannetti
+Anna
+La banda superior debe ser más grande y el nombre del proyecto debe estar en el centro la escritura debe ser más grande
+Anna
+El logo del diamante debe estar a la derecha.
+Anna
+Anna Maria Giannetti
+Los botones siguen siendo los originales elegidos por ti. Deja también el botón de chat. Trabajaremos en ello más adelante.
+Enviaste
+pero entonces de ese cambio que tu me hablas
+Enviaste
+lo haces r3efiriendote a la web que tenemos ya online
+Anna
+Anna Maria Giannetti
+Debes reemplazar el fondo azul claro con un fondo rosa salmón claro sólido.
+Enviaste
+o los videos que te mando
+Enviaste
+de como lallevo
+Anna te respondió
+Anna Maria Giannetti
+si
+Respondiste a Anna
+pero eso es un color que no va con la gama de colores
+Enviaste
+aparte para una red social de servicios no creo que se vea bien ese color
+Anna
+Anna Maria Giannetti
+Estos cambios deben realizarse en el proyecto original, no en los videos que me envías.
+Enviaste
+ok
+Anna
+Luego puedes reemplazarlo con una Celestine de color claro pero sólido.
+Anna
+Anna Maria Giannetti
+otro punto: En el formulario de inscripción el nombre del proyecto debe ser más grande
+Respondiste a Anna
+si sñora
+Anna
+Anna Maria Giannetti
+La barra de formulario di registrazione en sí debe ser más grande.
+Enviaste
+barra de formulario?
+Anna
+Anna Maria Giannetti
+Pasemos entonces al apartado de perfiles, el fondo del perfil del usuario debe ser blanco y no verde como ahora y debemos añadir la foto de perfil, es decir, del propio usuario.
+Anna te respondió
+Anna Maria Giannetti
+Ya os he dicho que la barra del formulario de registro de cada usuario con correo electrónico y contraseña debe ser más grande y la escritura debe ser más grande y el sobre que indica la dirección de correo electrónico debe ser más grande y no aplastado.
+Enviaste
+si señora para eso se debe crear una tabla que guarde las imagenes o añadir el parametro imagen a la tabla de usuarios
+Respondiste a Anna
+si señora
+Enviaste
+aun no entiendo muy bien lo de "aplastado"
+Anna te respondió
+Significa que la imagen debe ser más ancha la imagen debe ser más ancha los bordes de la imagen deben ser más anchos lateralmente
+Anna
+Anna Maria Giannetti
+En cuanto a la sección de reseñas, el escrito de reseñas debe ser de mayor tamaño y de color verde.
+Respondiste a Anna
+listooo
+Anna
+Anna Maria Giannetti
+Otro punto se refiere a la sección llamada Seleccionar objeto a crear, la selección del objeto a crear, es decir, la frase Seleccionar objeto a crear debe ser más grande y aparecer a la derecha sobre el fondo blanco, es libre y no debe superponerse con el perfil del usuario.
+Enviaste
+Listo
+Anna
+Anna Maria Giannetti
+También en lo que respecta a la sección de crear un servicio, la escritura debe ser más grande y nunca superponerse al perfil del usuario u otra escritura, sino aparecer sobre el fondo blanco lateralmente.
