@@ -71,12 +71,13 @@ app.get("/", (req, res) => {
 // GENERAR CONECCION
 
 const connection = mysql.createConnection({
-    host: '127.0.0.1',
-    user: 'root',
-    password: 'spizamarillo2715',
-    database: 'BDAlquileGente',
-    charset: 'utf8mb4'
-})
+  host: 'monorail.proxy.rlwy.net',
+  port: 58853,
+  user: 'root',
+  password: 'tcDmRmMveOzzXryffLyUnZXNgxWRTRsA',
+  database: 'railway',
+  charset: 'utf8mb4'
+});
 
 connection.connect((error) => {
     if (error) {
